@@ -1,0 +1,26 @@
+{
+  "name": "library-management-backend",
+  "version": "1.0.0",
+  "description": "Library Management System Backend with Node.js, Express, and AWS DynamoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup-db": "node setup-db.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.620.0",
+    "@aws-sdk/lib-dynamodb": "^3.620.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}
